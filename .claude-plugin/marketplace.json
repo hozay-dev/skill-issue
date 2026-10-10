@@ -1,0 +1,31 @@
+{
+  "name": "jmo-skills",
+  "owner": {
+    "name": "Johnathan Mo"
+  },
+  "metadata": {
+    "description": "Skills and optional MCP connections from Johnathan Mo\u2019s hackathon workflow."
+  },
+  "plugins": [
+    {
+      "name": "jmo-workflow",
+      "source": "./",
+      "description": "Johnathan Mo\u2019s hackathon workflow: planning, clear explanations, interface polish, animation, visual feedback, and Codex handoffs."
+    },
+    {
+      "name": "jmo-supabase",
+      "source": "./plugins/jmo-supabase",
+      "description": "Optional Supabase MCP connection for the JMO workflow. Requires your own account and OAuth sign-in."
+    },
+    {
+      "name": "jmo-neon",
+      "source": "./plugins/jmo-neon",
+      "description": "Optional Neon MCP connection for the JMO workflow. Requires your own account and OAuth sign-in."
+    },
+    {
+      "name": "jmo-stripe",
+      "source": "./plugins/jmo-stripe",
+      "description": "Optional Stripe MCP connection for the JMO workflow. Requires your own account and OAuth sign-in."
+    }
+  ]
+}

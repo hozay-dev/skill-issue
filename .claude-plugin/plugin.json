@@ -1,0 +1,11 @@
+{
+  "name": "jmo-workflow",
+  "version": "1.0.0",
+  "description": "Johnathan Mo\u2019s hackathon workflow: planning, clear explanations, interface polish, animation, visual feedback, and Codex handoffs.",
+  "author": {
+    "name": "Johnathan Mo"
+  },
+  "homepage": "https://github.com/23jmo/jmo-skills",
+  "repository": "https://github.com/23jmo/jmo-skills",
+  "license": "MIT AND PolyForm-Shield-1.0.0"
+}

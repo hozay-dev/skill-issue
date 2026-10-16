@@ -13,18 +13,18 @@
       "description": "Johnathan Mo\u2019s hackathon workflow: planning, clear explanations, interface polish, animation, visual feedback, and Codex handoffs."
     },
     {
-      "name": "jmo-supabase",
-      "source": "./plugins/jmo-supabase",
+      "name": "skill-issue-supabase",
+      "source": "./plugins/skill-issue-supabase",
       "description": "Optional Supabase MCP connection for the JMO workflow. Requires your own account and OAuth sign-in."
     },
     {
-      "name": "jmo-neon",
-      "source": "./plugins/jmo-neon",
+      "name": "skill-issue-neon",
+      "source": "./plugins/skill-issue-neon",
       "description": "Optional Neon MCP connection for the JMO workflow. Requires your own account and OAuth sign-in."
     },
     {
-      "name": "jmo-stripe",
-      "source": "./plugins/jmo-stripe",
+      "name": "skill-issue-stripe",
+      "source": "./plugins/skill-issue-stripe",
       "description": "Optional Stripe MCP connection for the JMO workflow. Requires your own account and OAuth sign-in."
     }
   ]

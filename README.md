@@ -46,9 +46,9 @@ Restart your agent after installation. Claude's plugin commands are namespaced; 
 Install only the services your project uses:
 
 ```sh
-claude plugin install jmo-supabase@skill-issue
-claude plugin install jmo-neon@skill-issue
-claude plugin install jmo-stripe@skill-issue
+claude plugin install skill-issue-supabase@skill-issue
+claude plugin install skill-issue-neon@skill-issue
+claude plugin install skill-issue-stripe@skill-issue
 ```
 
 Restart Claude Code and run `/mcp` to authenticate each installed service with your own account. These plugins contain public server URLs, not credentials. Use development projects and Stripe sandboxes for hackathon work. Installing a plugin does not create a database, Stripe account, or subscription.
@@ -74,7 +74,7 @@ Related skills named in upstream guidance (such as `review-animations` or `bette
 claude plugin validate --strict .claude-plugin/plugin.json
 claude plugin validate --strict .claude-plugin/marketplace.json
 claude plugin validate skills
-claude plugin validate --strict plugins/jmo-supabase
-claude plugin validate --strict plugins/jmo-neon
-claude plugin validate --strict plugins/jmo-stripe
+claude plugin validate --strict plugins/skill-issue-supabase
+claude plugin validate --strict plugins/skill-issue-neon
+claude plugin validate --strict plugins/skill-issue-stripe
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "jmo-stripe",
+  "name": "skill-issue-stripe",
   "version": "1.0.0",
   "description": "Optional Stripe MCP connection for the JMO workflow. Requires your own account and OAuth sign-in.",
   "author": {

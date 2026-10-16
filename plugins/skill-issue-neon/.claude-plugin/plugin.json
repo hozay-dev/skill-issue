@@ -1,5 +1,5 @@
 {
-  "name": "jmo-neon",
+  "name": "skill-issue-neon",
   "version": "1.0.0",
   "description": "Optional Neon MCP connection for the JMO workflow. Requires your own account and OAuth sign-in.",
   "author": {

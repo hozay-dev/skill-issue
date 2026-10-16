@@ -1,5 +1,5 @@
 {
-  "name": "jmo-supabase",
+  "name": "skill-issue-supabase",
   "version": "1.0.0",
   "description": "Optional Supabase MCP connection for the JMO workflow. Requires your own account and OAuth sign-in.",
   "author": {

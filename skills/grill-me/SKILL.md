@@ -1,5 +1,5 @@
 ---
-name: interview
+name: grill-me
 description: Interview user in-depth to create a detailed spec
 allowed-tools: AskUserQuestion, Write, Agent
 ---

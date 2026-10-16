@@ -7,7 +7,7 @@ The skills from my hackathon workflow, packaged for Claude Code and other coding
 Run these in your terminal:
 
 ```sh
-claude plugin marketplace add 23jmo/jmo-skills
+claude plugin marketplace add hozay-dev/jmo-skills
 claude plugin install jmo-workflow@jmo-skills
 ```
 
@@ -15,12 +15,12 @@ Restart Claude Code after installing. The plugin provides:
 
 | Command | What it does | Creator |
 | --- | --- | --- |
-| `/jmo-workflow:interview` | Interview you about a project and save an implementation spec in `.plans/` | Johnathan Mo |
-| `/jmo-workflow:ste` | Explain technical ideas in clear, precise language | Johnathan Mo |
-| `/jmo-workflow:better-ui` | Polish interface surfaces, icons, and motion | [Jakub Krehel](https://github.com/jakubkrehel/skills/tree/main/skills/better-ui) |
-| `/jmo-workflow:animate` | Build purposeful interface animations | [Emil Kowalski](https://github.com/emilkowalski/skills/tree/main/skills/animate) |
-| `/jmo-workflow:agentation` | Set up visual feedback attached to page elements | [Benji Taylor](https://github.com/benjitaylor/agentation/tree/main/skills/agentation) |
-| `/jmo-workflow:codex` | Hand off an implementation, review, or second opinion to the Codex CLI | Johnathan Mo; standalone wrapper |
+| `/jmo-workflow:grill-me` | Interview you about a project and save an implementation spec in `.plans/` | Johnathan Mo |
+| `/jmo-workflow:plain-speak` | Explain technical ideas in clear, precise language | Johnathan Mo |
+| `/jmo-workflow:pixel-pusher` | Polish interface surfaces, icons, and motion | [Jakub Krehel](https://github.com/jakubkrehel/skills/tree/main/skills/better-ui) |
+| `/jmo-workflow:smooth-operator` | Build purposeful interface animations | [Emil Kowalski](https://github.com/emilkowalski/skills/tree/main/skills/animate) |
+| `/jmo-workflow:point-and-tell` | Set up visual feedback attached to page elements | [Benji Taylor](https://github.com/benjitaylor/agentation/tree/main/skills/agentation) |
+| `/jmo-workflow:phone-a-friend` | Hand off an implementation, review, or second opinion to the Codex CLI | Johnathan Mo; standalone wrapper |
 
 The original `/codex` reference from the video is [gstack by Garry Tan](https://github.com/garrytan/gstack/tree/main/codex). It depends on the larger gstack installation. This plugin includes a new, portable handoff skill instead; for gstack's exact review/challenge/consult workflow, follow [its installation guide](https://github.com/garrytan/gstack#install--about-30-seconds).
 
@@ -29,14 +29,14 @@ Codex handoffs require the [Codex CLI](https://developers.openai.com/codex/cli/)
 ## Install individual skills in other agents
 
 ```sh
-npx skills add 23jmo/jmo-skills
+npx skills add hozay-dev/jmo-skills
 ```
 
 Or select individual skills:
 
 ```sh
-npx skills add 23jmo/jmo-skills --skill interview
-npx skills add 23jmo/jmo-skills --skill ste
+npx skills add hozay-dev/jmo-skills --skill grill-me
+npx skills add hozay-dev/jmo-skills --skill plain-speak
 ```
 
 Restart your agent after installation. Claude's plugin commands are namespaced; individual skill installs typically use the short names shown in the video. You only need one installation method per agent.
@@ -62,9 +62,9 @@ Provider setup and permissions: [Supabase](https://supabase.com/docs/guides/ai-t
 
 ## Credits and licenses
 
-My `interview`, `ste`, and standalone `codex` skills, plugin manifests, and documentation are [MIT licensed](LICENSE). `ste` is a practical writing guide; it does not claim formal ASD-STE100 compliance.
+My `grill-me`, `plain-speak`, and standalone `phone-a-friend` skills, plugin manifests, and documentation are [MIT licensed](LICENSE). `plain-speak` is a practical writing guide; it does not claim formal ASD-STE100 compliance.
 
-The bundled `better-ui` and `animate` directories are unchanged upstream snapshots with their MIT licenses included. `agentation` is distributed under its own **PolyForm Shield 1.0.0** license, included in its directory; it is not covered by this repository's MIT license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [UPSTREAM.json](UPSTREAM.json) for attribution and pinned source revisions.
+The bundled `pixel-pusher` and `smooth-operator` directories are unchanged upstream snapshots with their MIT licenses included. `point-and-tell` is distributed under its own **PolyForm Shield 1.0.0** license, included in its directory; it is not covered by this repository's MIT license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [UPSTREAM.json](UPSTREAM.json) for attribution and pinned source revisions.
 
 Related skills named in upstream guidance (such as `review-animations` or `better-typography`) are separate optional skills available from those creators, not commands bundled here.
 

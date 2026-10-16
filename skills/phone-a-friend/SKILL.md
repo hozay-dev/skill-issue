@@ -1,5 +1,5 @@
 ---
-name: codex
+name: phone-a-friend
 description: Hand off a scoped implementation, code review, or technical second opinion to the OpenAI Codex CLI from Claude Code. Use when the user asks to delegate work to Codex or get an independent review.
 disable-model-invocation: true
 ---

@@ -1,5 +1,5 @@
 ---
-name: ste
+name: plain-speak
 description: Explain technical ideas in clear, precise language. Use when an explanation is confusing, jargon-heavy, vague, or hard to follow, or when the user asks for Standard Technical English.
 ---
 

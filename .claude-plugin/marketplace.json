@@ -1,5 +1,5 @@
 {
-  "name": "jmo-skills",
+  "name": "skill-issue",
   "owner": {
     "name": "Johnathan Mo"
   },
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "jmo-workflow",
+      "name": "skill-issue",
       "source": "./",
       "description": "Johnathan Mo\u2019s hackathon workflow: planning, clear explanations, interface polish, animation, visual feedback, and Codex handoffs."
     },

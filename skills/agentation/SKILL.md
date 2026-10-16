@@ -1,5 +1,5 @@
 ---
-name: point-and-tell
+name: agentation
 description: Add Agentation visual feedback toolbar to a Next.js project
 ---
 
